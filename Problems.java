@@ -18,3 +18,24 @@ public class OppositesAttract {
   }
 }
  */
+/* 2.Write a function to split a string and convert it into an array of words.
+------------
+ public class Solution {
+
+    public static String[] stringToArray(String s) {
+        String[] result = s.split("\\s+");
+        return result;
+    }
+
+    public static void main(String[] args) {
+        String inputString = "Hello World! This is a sample string.";
+        String[] wordsArray = stringToArray(inputString);
+
+        System.out.println("Words in the array:");
+        for (String word : wordsArray) {
+            System.out.println(word);
+        }
+    }
+}
+
+ */
