@@ -83,3 +83,23 @@ public int[] twoSum(int[] nums, int target) {
 }
 
  */
+/*5.Palindrome Number-Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+ public boolean isPalindrome(int x) {
+    if (x < 0) {
+        return false;
+    }
+    String strX = Integer.toString(x);
+    int left = 0, right = strX.length() - 1;
+    
+    while (left < right) {
+        if (strX.charAt(left) != strX.charAt(right)) {
+            return false;
+        }
+        left++;
+        right--;
+    }
+    
+    return true;
+}
+
+ */
