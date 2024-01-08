@@ -64,3 +64,22 @@ public class Solution {
 }
 
  */
+/*4.Two Sum-Given an array of numbers, find the two numbers such that they add up to a specific target.
+ import java.util.HashMap;
+import java.util.Map;
+
+public int[] twoSum(int[] nums, int target) {
+    Map<Integer, Integer> numIndices = new HashMap<>();
+    
+    for (int i = 0; i < nums.length; i++) {
+        int complement = target - nums[i];
+        if (numIndices.containsKey(complement)) {
+            return new int[] { numIndices.get(complement), i };
+        }
+        numIndices.put(nums[i], i);
+    }
+    
+    return new int[] { -1, -1 }; // Eğer çözüm bulunamazsa
+}
+
+ */
