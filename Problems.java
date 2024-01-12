@@ -103,3 +103,24 @@ public int[] twoSum(int[] nums, int target) {
 }
 
  */
+/*6.Factorial
+public class Factorial {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Bir sayı girin: ");
+        int number = scanner.nextInt();
+
+        long factorial = calculateFactorial(number);
+        System.out.println(number + " sayısının faktöriyeli: " + factorial);
+    }
+
+    private static long calculateFactorial(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        } else {
+            return n * calculateFactorial(n - 1);
+        }
+    }
+}
+ 
+ */
