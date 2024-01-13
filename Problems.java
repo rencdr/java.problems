@@ -158,3 +158,46 @@ public class GCD {
   }
 }
  */
+/*
+ 9. When provided with a number between 0-9, return it in words.
+Input :: 1   Output :: "One". 
+
+public class Kata
+{
+  public static String switchItUp(int number)
+  {
+    String numberName = "";
+  switch (number){
+      case 1:
+        numberName = "One";
+        break;
+      case 2:
+        numberName = "Two";
+        break;
+      case 3:
+        numberName = "Three";
+        break;
+      case 4:
+        numberName = "Four";
+        break;
+      case 5:
+        numberName = "Five";
+        break;
+      case 6:
+        numberName = "Six";
+        break;
+      case 7:
+        numberName = "Seven";
+        break;
+      case 8:
+        numberName = "Eight";
+        break;
+      case 9:
+        numberName = "Nine";
+        break;
+  }
+    return numberName;
+  }
+}
+
+ */
