@@ -199,5 +199,24 @@ public class Kata
     return numberName;
   }
 }
+ */
+/*
+ 10.You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
+ 
+ public class TrafficLights {
 
+ public static String updateLight(String current) {
+        if (current.equals("green")) {
+            return "yellow";
+        } else if (current.equals("yellow")) {
+            return "red";
+        } else if (current.equals("red")) {
+            return "green";
+        }
+
+        return ""; // Bu satır gereksiz, çünkü yukarıdaki koşulların hepsi kapsanmış durumda
+    }
+  
+}
+  
  */
