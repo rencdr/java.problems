@@ -220,3 +220,21 @@ public class Kata
 }
   
  */
+/*
+ 11.Given a non-negative integer, return an array / a list of the individual digits in order.
+
+ public class Solution{
+  public static int[] digitize(int n) {
+        String[] strDigits = Integer.toString(n).split("");
+
+        int[] result = new int[strDigits.length];
+
+        for (int i = 0; i < strDigits.length; i++) {
+            result[i] = Integer.parseInt(strDigits[i]);
+        }
+
+        return result;
+    }
+
+}
+ */
