@@ -238,3 +238,13 @@ public class Kata
 
 }
  */
+/*
+12.Create a function which translates a given DNA string into RNA.
+
+public class Bio {
+    public String dnaToRna(String dna) {
+        String rna = dna.replace('T', 'U')
+        return rna;  
+    } 
+}
+ */
