@@ -261,3 +261,22 @@ Function should return true if it is possible and false if not.
   
 }
  */
+/*
+ 14.Return message based on Alex's hoop count
+ 
+ public class HelpAlex {
+    public static String hoopCount(int n) {
+        if (n >= 10) {
+            return "Great, now move on to tricks";
+        } else {
+            return "Keep at it until you get it";
+        }
+    }
+
+    public static void main(String[] args) {
+        int testValue = 12;
+        System.out.println(hoopCount(testValue));
+    }
+}
+  
+ */
