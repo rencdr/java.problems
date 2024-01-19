@@ -280,3 +280,17 @@ Function should return true if it is possible and false if not.
 }
   
  */
+/*
+ 15.Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0. Your function only needs to return the result, what is shown between parentheses in the example below is how you reach that result and it's not part of it, see the sample tests.
+
+ public class GrassHopper {
+    public static int summation(int n) {
+        return n * (n + 1) / 2;
+    }
+
+    public static void main(String[] args) {
+        int result = summation(5);
+        System.out.println(result);  // Output: 15
+    }
+}
+ */
