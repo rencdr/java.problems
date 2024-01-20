@@ -309,3 +309,28 @@ public class Kata {
   }
 }
  */
+/*
+ 17.Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+
+public class DescendingOrder {
+    public static int sortDesc(final int num) {
+        String numStr = Integer.toString(num);
+
+        char[] digits = numStr.toCharArray();
+
+        java.util.Arrays.sort(digits);
+
+        StringBuilder reversed = new StringBuilder(new String(digits)).reverse();
+
+        int result = Integer.parseInt(reversed.toString());
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int input = 12345;
+        int sortedResult = sortDesc(input);
+        System.out.println(sortedResult);
+    }
+}
+ */
