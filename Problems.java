@@ -334,3 +334,14 @@ public class DescendingOrder {
     }
 }
  */
+/*
+ 18.Complete the function to return his total number of goals in all three leagues.
+
+public class Goals {
+    public static int goals(int laLigaGoals, int copaDelReyGoals, int championsLeagueGoals) {
+      int totalGoal  = (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
+      return totalGoal;
+      
+    }
+}
+ */
