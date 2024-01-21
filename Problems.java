@@ -364,3 +364,24 @@ public class ReverseNumber {
 
 }  
  */
+/*
+20.In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+import java.util.Arrays;
+public class Kata {
+  public static String highAndLow(String numbers) {
+        String[] numberStrings = numbers.split(" ");
+        int[] intNumbers = new int[numberStrings.length];
+
+        for (int i = 0; i < numberStrings.length; i++) {
+            intNumbers[i] = Integer.parseInt(numberStrings[i]);
+        }
+
+        int minValue = Arrays.stream(intNumbers).min().getAsInt();
+        int maxValue = Arrays.stream(intNumbers).max().getAsInt();
+
+        return maxValue + " " + minValue;
+    }
+} 
+  
+ */
