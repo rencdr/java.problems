@@ -345,3 +345,22 @@ public class Goals {
     }
 }
  */
+/*
+19.Given a number, write a function to output its reverse digits. (e.g. given 123 the answer is 321)
+
+public class ReverseNumber {
+
+	public static int reverse(int number) {
+        int reversedNumber = 0;
+
+        while (number != 0) {
+            int digit = number % 10;
+            reversedNumber = reversedNumber * 10 + digit;
+            number /= 10;
+        }
+
+        return reversedNumber;
+    }
+
+}  
+ */
