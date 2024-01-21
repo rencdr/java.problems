@@ -1,5 +1,6 @@
 //This repo is for solutions to problems on sites Codewars, Hackerrank, Leetcode with java.
-/* 1.Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each.
+/* 
+1.Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each.
 If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
 
 Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
@@ -18,7 +19,8 @@ public class OppositesAttract {
   }
 }
  */
-/* 2.Write a function to split a string and convert it into an array of words.
+/* 
+2.Write a function to split a string and convert it into an array of words.
 ------------
  public class Solution {
 
@@ -38,7 +40,8 @@ public class OppositesAttract {
     }
 }
  */
-/* 3.Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+/* 
+3.Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
  -------------
  import java.util.HashMap;
 import java.util.Map;
@@ -64,7 +67,9 @@ public class Solution {
 }
 
  */
-/*4.Two Sum-Given an array of numbers, find the two numbers such that they add up to a specific target.
+/*
+4.Two Sum-Given an array of numbers, find the two numbers such that they add up to a specific target.
+-------------
  import java.util.HashMap;
 import java.util.Map;
 
@@ -83,8 +88,10 @@ public int[] twoSum(int[] nums, int target) {
 }
 
  */
-/*5.Palindrome Number-Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
- public boolean isPalindrome(int x) {
+/*
+5.Palindrome Number-Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+------------- 
+public boolean isPalindrome(int x) {
     if (x < 0) {
         return false;
     }
@@ -103,7 +110,9 @@ public int[] twoSum(int[] nums, int target) {
 }
 
  */
-/*6.Factorial
+/*
+6.Factorial
+-------------
 public class Factorial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -125,6 +134,7 @@ public class Factorial {
  
  */
 /*7.greatest common divisor 
+-------------
 public class GCD {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -150,7 +160,7 @@ public class GCD {
  8.HELP! Jason can't find his textbook! It is two days before the test date, and Jason's textbooks are 
  all out of order! Help him sort a list (ArrayList in java) full of textbooks by subject, so he can study 
  before the test.
-
+-------------
  class sorter {
   public static List<String> sort(List<String> textbooks) {
       Collections.sort(textbooks, String.CASE_INSENSITIVE_ORDER);
@@ -160,6 +170,7 @@ public class GCD {
  */
 /*
  9. When provided with a number between 0-9, return it in words.
+ -------------
 Input :: 1   Output :: "One". 
 
 public class Kata
@@ -202,7 +213,7 @@ public class Kata
  */
 /*
  10.You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
- 
+ -------------
  public class TrafficLights {
 
  public static String updateLight(String current) {
@@ -222,7 +233,7 @@ public class Kata
  */
 /*
  11.Given a non-negative integer, return an array / a list of the individual digits in order.
-
+-------------
  public class Solution{
   public static int[] digitize(int n) {
         String[] strDigits = Integer.toString(n).split("");
@@ -240,7 +251,7 @@ public class Kata
  */
 /*
 12.Create a function which translates a given DNA string into RNA.
-
+-------------
 public class Bio {
     public String dnaToRna(String dna) {
         String rna = dna.replace('T', 'U');
@@ -252,7 +263,7 @@ public class Bio {
  13.You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
 Considering these factors, write a function that tells you if it is possible to get to the pump or not.
 Function should return true if it is possible and false if not.
-
+-------------
  public class Kata {
   
   public static boolean zeroFuel(double distanceToPump, double mpg, double fuelLeft) {
@@ -263,7 +274,7 @@ Function should return true if it is possible and false if not.
  */
 /*
  14.Return message based on Alex's hoop count
- 
+ -------------
  public class HelpAlex {
     public static String hoopCount(int n) {
         if (n >= 10) {
@@ -282,7 +293,7 @@ Function should return true if it is possible and false if not.
  */
 /*
  15.Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0. Your function only needs to return the result, what is shown between parentheses in the example below is how you reach that result and it's not part of it, see the sample tests.
-
+-------------
  public class GrassHopper {
     public static int summation(int n) {
         return n * (n + 1) / 2;
@@ -298,7 +309,7 @@ Function should return true if it is possible and false if not.
  16.All of the animals are having a feast! Each animal is bringing one dish. There is just one rule: the dish must start and end with the same letters as the animal's name. For example, the great blue heron is bringing garlic naan and the chickadee is bringing chocolate cake.
 Write a function feast that takes the animal's name and dish as arguments and returns true or false to indicate whether the beast is allowed to bring the dish to the feast.
 Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
-
+-------------
 public class Kata {
 
   public static boolean feast(String beast, String dish) {
@@ -311,7 +322,7 @@ public class Kata {
  */
 /*
  17.Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
-
+-------------
 public class DescendingOrder {
     public static int sortDesc(final int num) {
         String numStr = Integer.toString(num);
@@ -336,7 +347,7 @@ public class DescendingOrder {
  */
 /*
  18.Complete the function to return his total number of goals in all three leagues.
-
+-------------
 public class Goals {
     public static int goals(int laLigaGoals, int copaDelReyGoals, int championsLeagueGoals) {
       int totalGoal  = (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
@@ -347,7 +358,7 @@ public class Goals {
  */
 /*
 19.Given a number, write a function to output its reverse digits. (e.g. given 123 the answer is 321)
-
+-------------
 public class ReverseNumber {
 
 	public static int reverse(int number) {
@@ -366,7 +377,7 @@ public class ReverseNumber {
  */
 /*
 20.In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
-
+-------------
 import java.util.Arrays;
 public class Kata {
   public static String highAndLow(String numbers) {
