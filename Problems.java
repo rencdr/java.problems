@@ -396,3 +396,29 @@ public class Kata {
 } 
   
  */
+/*
+ 21.Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+ import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
+    public void moveZeroes(int[] nums) {
+        List<Integer> nonZeros = new ArrayList<>();
+        for (int num : nums) {
+            if (num != 0) {
+                nonZeros.add(num);
+            }
+        }
+
+        int zeroCount = nums.length - nonZeros.size();
+        for (int i = 0; i < nonZeros.size(); i++) {
+            nums[i] = nonZeros.get(i);
+        }
+
+        for (int i = nonZeros.size(); i < nums.length; i++) {
+            nums[i] = 0;
+        }
+    }
+}  
+ */
