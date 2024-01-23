@@ -448,4 +448,32 @@ class Crypto {
     }
 }
 */
+/*
+ 23.In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". Your function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+
+ public static String makeComplement(String dna) {
+        StringBuilder newString = new StringBuilder();
+
+        for (char letter : dna.toCharArray()) {
+            switch (letter) {
+                case 'A':
+                    newString.append('T');
+                    break;
+                case 'T':
+                    newString.append('A');
+                    break;
+                case 'C':
+                    newString.append('G');
+                    break;
+                case 'G':
+                    newString.append('C');
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        return newString.toString();
+    }
+ */
  
