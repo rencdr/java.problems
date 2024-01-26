@@ -537,3 +537,27 @@ class Crypto {
 }
 
   */
+/*
+ 25.Your task is to create a function that does four basic mathematical operations. 
+ public class BasicOperations
+{
+  public static Integer basicMath(String op, int v1, int v2) {
+        switch (op) {
+            case "+":
+                return v1 + v2;
+            case "-":
+                return v1 - v2;
+            case "*":
+                return v1 * v2;
+            case "/":
+                if (v2 != 0) {
+                    return v1 / v2;
+                } else {
+                    throw new ArithmeticException("Division by zero is not allowed.");
+                }
+            default:
+                throw new IllegalArgumentException("Invalid operation: " + op);
+        }
+    }
+}
+ */
